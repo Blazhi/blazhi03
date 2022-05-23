@@ -212,7 +212,7 @@ a{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  background: var(--filter-btn);
+  background: var(--first-tittle-color);
   cursor: pointer;
 }
 
