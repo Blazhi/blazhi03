@@ -264,6 +264,9 @@ a{
     display: flex;
     justify-content: center;
 }
+.examples-list .examples-btn+.examples-btn{
+    margin-left: 8px;
+}
 
 .examples-btn-act,
 .examples-btn:hover,
