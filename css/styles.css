@@ -103,6 +103,26 @@ a{
 .header-link:focus {
     color: var(--color-accent);
   }
+.header-list{
+    display: flex;
+}
+
+.header-list .header-item:not(:last-child){
+  margin-right: 50px;
+}
+.nav-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--first-text-color);
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
 
 
  /*--HERO-- */
@@ -129,11 +149,9 @@ a{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    display: inline-block;
     
-   
     color: var(--first-btn-color);
-
+    display: inline-block;
     background-color:var(--color-accent) ;
     border: 1px solid var(--color-accent);
     border-radius: 4px;
@@ -232,6 +250,9 @@ a{
    line-height: 1.62;
    background: var(--first-tittle-color);
    cursor: pointer;
+
+   border-radius: 4px;
+   border: 1px solid  #F5F4FA;;
 }
 .examples-list{
     display: flex;
@@ -326,7 +347,9 @@ a{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--first-tittle-color);
+    color:rgba(255, 255, 255, 0.6);;
 
     margin-bottom: 9px;
   }
+
+ 
