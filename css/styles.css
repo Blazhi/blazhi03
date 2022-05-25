@@ -171,6 +171,10 @@ a{
     padding-bottom: 94px;
 
  }
+ .advantages-list{
+     display: flex;
+     margin-right: 30px;
+ }
 .advantages-tittle {
     font-weight: 700;
     font-size: 14px;
@@ -193,6 +197,9 @@ a{
  .job{
     padding-bottom: 94px;
 }
+.job-list{
+    display: flex;
+}
 .job-tittle {
     font-weight: 700;
     font-size: 36px;
@@ -208,6 +215,9 @@ a{
     background-color: var(--team-background-color);
     padding-top:  94px;
     padding-bottom: 94px;
+}
+.team-list{
+    display: flex;
 }
 .team-tittle {
     font-weight: 700;
