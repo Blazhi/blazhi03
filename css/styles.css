@@ -175,6 +175,9 @@ a{
      display: flex;
      margin-right: 30px;
  }
+ .advantages-item {
+     width: calc(100%/4);
+ }
 .advantages-tittle {
     font-weight: 700;
     font-size: 14px;
@@ -200,6 +203,13 @@ a{
 .job-list{
     display: flex;
 }
+.job-item{
+    width: calc(100%-30px/3);
+    margin-right: 30px;
+}
+.job-item :nth-child(3n){
+    margin-right: 0;
+}
 .job-tittle {
     font-weight: 700;
     font-size: 36px;
@@ -219,6 +229,13 @@ a{
 .team-list{
     display: flex;
 }
+.team-item{
+    width: calc(100%-30px/4);
+    margin-right: 30px;
+}
+.team-item :nth-child(4n){
+    margin-right: 0;
+}
 .team-tittle {
     font-weight: 700;
     font-size: 36px;
@@ -233,6 +250,7 @@ a{
     width: 270px;
     height: 368px;
     border: 1px solid #000;
+    margin-right: 30px;
 }
 .team-img{
     margin-bottom: 30px;
@@ -293,8 +311,10 @@ a{
 }
 .projects-list{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
+}
+.projects-list li{
+    margin: 15px 15px;
 }
 .projects-item:nth-child(3n){
     margin-right: 0;
