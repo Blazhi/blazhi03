@@ -287,7 +287,7 @@ a{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-    background: var(--first-tittle-color);
+    background:  #f5f4fa;
    cursor: pointer;
   
 }
@@ -311,30 +311,26 @@ a{
 .projects{
     padding-bottom: 94px;
 }
-.projects-img{
-    margin-bottom: 20px;
-}
 .projects-list{
     display: flex;
     flex-wrap: wrap; 
-}
-.projects-item{
-    margin: 15px 15px;
-}
-/*.projects-item{
-    width: 370px;
-    height: 404px;
-    margin-bottom: -30px;
-    margin-left: -30px;
-    border: 1px solid tomato;
-}
-.projects-item{
-    width: calc(100%/3 -30px);
+    margin-top: -30px;
     margin-left: 30px;
-    margin-bottom: 30px;
-    flex-basis: 370px;
 }
-*/
+.projects-item{
+    flex-basis: 370px;
+    margin-top: 30px;
+    margin-left: 30px;;
+}
+
+.projects-item-cont{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+}
+
 .projects-post-tittle {
     font-weight: 700;
     font-size: 18px;
